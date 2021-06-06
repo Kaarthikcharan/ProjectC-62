@@ -1,0 +1,37 @@
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: dodgerblue;
+}
+.links{
+    float:left;
+    color:aqua;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size:20px;
+}
+.links:hover{
+    background-color: blue;
+    text-decoration: none;
+}
+.row{
+    display: grid;
+     grid-template-columns: auto auto auto;
+}
+img{
+    height:230px;
+    width:230px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
